@@ -1,6 +1,6 @@
 {
   "name": "@tvet-mis/psda-assets",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Static assets package for PSDA projects including images, SVGs, and JSON files",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
