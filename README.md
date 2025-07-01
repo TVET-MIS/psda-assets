@@ -247,13 +247,13 @@ If you need to publish manually:
 2. **Set your GitHub token:**
    ```bash
    # Windows (PowerShell)
-   $env:GITHUB_TOKEN="your_token_here"
+   $env:NODE_AUTH_TOKEN="your_token_here"
    
    # Windows (Command Prompt)
-   set GITHUB_TOKEN=your_token_here
+   set NODE_AUTH_TOKEN=your_token_here
    
    # macOS/Linux
-   export GITHUB_TOKEN=your_token_here
+   export NODE_AUTH_TOKEN=your_token_here
    ```
 
 3. **Publish:**
@@ -265,7 +265,7 @@ If you need to publish manually:
 The package uses environment variables for secure token management:
 
 - Copy `.npmrc.template` to `.npmrc`
-- Set `GITHUB_TOKEN` environment variable
+- Set `NODE_AUTH_TOKEN` environment variable
 - Never commit your actual token to version control
 
 ## Contributing

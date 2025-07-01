@@ -5,10 +5,10 @@
 @tvet-mis:registry=https://npm.pkg.github.com
 
 # Use environment variable for authentication token
-//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
+//npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}
 
 # Optional: Set organization scope
-//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
+//npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}
 //npm.pkg.github.com/:always-auth=true
 
 # Fallback to npm registry for other packages

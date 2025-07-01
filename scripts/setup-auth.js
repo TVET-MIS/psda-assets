@@ -28,11 +28,11 @@ console.log('   - Copy the token');
 
 console.log('\n2. Set the environment variable:');
 console.log('   Windows (PowerShell):');
-console.log('   $env:GITHUB_TOKEN="your_token_here"');
+console.log('   $env:NODE_AUTH_TOKEN="your_token_here"');
 console.log('\n   Windows (Command Prompt):');
-console.log('   set GITHUB_TOKEN=your_token_here');
+console.log('   set NODE_AUTH_TOKEN=your_token_here');
 console.log('\n   macOS/Linux:');
-console.log('   export GITHUB_TOKEN=your_token_here');
+console.log('   export NODE_AUTH_TOKEN=your_token_here');
 
 console.log('\n3. Test authentication:');
 console.log('   npm whoami --registry=https://npm.pkg.github.com');
@@ -43,6 +43,6 @@ console.log('   npm publish');
 console.log('\n⚠️  Security Notes:');
 console.log('   - Never commit your token to version control');
 console.log('   - Use environment variables, not hardcoded values');
-console.log('   - The .npmrc file uses ${GITHUB_TOKEN} to reference the env var');
+console.log('   - The .npmrc file uses ${NODE_AUTH_TOKEN} to reference the env var');
 
 console.log('\n🎉 Setup complete! Your .npmrc is configured to use environment variables.'); 
