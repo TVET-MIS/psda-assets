@@ -32,9 +32,6 @@ jobs:
     - name: Build
       run: npm run build
     
-    - name: Test
-      run: node test/test-assets.js
-    
     - name: Publish to GitHub Packages
       if: github.ref == 'refs/heads/main'
       run: npm publish

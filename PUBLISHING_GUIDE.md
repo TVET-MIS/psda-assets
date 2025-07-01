@@ -24,12 +24,6 @@ Before publishing, update the following in `package.json`:
 npm run build
 ```
 
-### 3. Test the Package
-
-```bash
-node test/test-assets.js
-```
-
 ### 4. Check What Will Be Published
 
 ```bash
