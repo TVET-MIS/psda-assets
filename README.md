@@ -21,94 +21,52 @@ yarn add @tvet-mis/psda-assets
 
 ## Usage
 
-### Import all assets
-```typescript
-import ASSETS from '@tvet-mis/psda-assets';
+> **Note:** All asset exports (like `psdaLogo`) are now public URLs. You can use them directly in `<img>` tags or fetch them in the browser. No need to copy files to your React project's public directory.
 
-// Use in React component
-function MyComponent() {
-  return (
-    <img src={ASSETS.svg.logos.psda_logo} alt="PSDA Logo" />
-  );
-}
-```
-
-### Import specific assets
-```typescript
+### Import and use a logo in React
+```jsx
 import { psdaLogo } from '@tvet-mis/psda-assets';
 
 function MyComponent() {
   return (
-    <img src={psdaLogo} alt="PSDA Logo" />
+    <img src={psdaLogo} alt="PSDA Logo" style={{ width: 200, height: 'auto' }} />
   );
 }
 ```
 
-### Import with destructuring
-```typescript
-import { ASSETS } from '@tvet-mis/psda-assets';
+### Import and use translations
+```js
+import { enTranslations } from '@tvet-mis/psda-assets';
 
-function MyComponent() {
-  return (
-    <img src={ASSETS.svg.logos.psda_logo} alt="PSDA Logo" />
-  );
-}
-```
-
-### Using the helper function
-```typescript
-import { getAssetPath } from '@tvet-mis/psda-assets';
-
-function MyComponent() {
-  const logoPath = getAssetPath('/assets/svg/logos/psda_logo.svg');
-  return (
-    <img src={logoPath} alt="PSDA Logo" />
-  );
-}
-```
-
-### Using translations
-```typescript
-import { enTranslations, urTranslations, getTranslationPath } from '@tvet-mis/psda-assets';
-
-// Load English translations
 fetch(enTranslations)
   .then(res => res.json())
   .then(data => console.log(data));
-
-// Load translations dynamically
-const locale = 'ur';
-fetch(getTranslationPath(locale))
-  .then(res => res.json())
-  .then(data => console.log(data));
 ```
 
-### Using translation helper functions
-```typescript
-import { getAvailableLocales, getTranslationPath } from '@tvet-mis/psda-assets';
+### Dynamic asset usage
+```js
+import { getAssetPath, getTranslationPath } from '@tvet-mis/psda-assets';
 
-// Get all available locales
-const locales = getAvailableLocales(); // ['en', 'ur']
-
-// Get translation path for specific locale
-const urPath = getTranslationPath('ur'); // '/assets/json/translations/ur.json'
+const logoUrl = getAssetPath('https://raw.githubusercontent.com/TVET-MIS/psda-assets/main/assets/svg/logos/psda_logo.svg');
+const urduTranslationsUrl = getTranslationPath('ur');
 ```
 
-## Available Assets
+### Available Exports
+- `psdaLogo` — Public URL to the PSDA logo SVG
+- `enTranslations` — Public URL to English translations JSON
+- `urTranslations` — Public URL to Urdu translations JSON
+- `getAssetPath(path)` — Returns the given path (for consistency)
+- `getTranslationPath(locale)` — Returns the public URL for the given locale
+- `getAvailableLocales()` — Returns all available locales
 
-### SVGs
-- **Logos**
-  - `psda_logo` - PSDA logo
+---
 
-### JSON Files
-- **Translations**
-  - `en` - English translations (`/assets/json/translations/en.json`)
-  - `ur` - Urdu translations (`/assets/json/translations/ur.json`)
+## How it works
+- All asset exports are **public URLs** (e.g., GitHub raw links)
+- You can use them directly in `<img src={psdaLogo} />` or fetch them in the browser
+- No need to copy files to your React project's public directory
 
-### Helper Functions
-- `getAssetPath(path: string)` - Get asset path
-- `getTranslationPath(locale: 'en' | 'ur')` - Get translation file path
-- `getAvailableLocales()` - Get all available locales
+---
 
 ## Adding New Assets
 
@@ -127,9 +85,11 @@ npm run add-asset assets/json/translations/ar.json arTranslations
 
 ### Method 2: Manual addition
 1. Add your asset files to the appropriate directory in `assets/`
-2. Update the `src/index.ts` file to export the new asset paths
+2. Update the `src/index.ts` file to export the new asset paths as public URLs
 3. Build the package: `npm run build`
 4. Commit and push to GitHub (GitHub Actions will auto-publish)
+
+---
 
 ## Development
 
@@ -150,7 +110,7 @@ npm run dev
 
 ### Testing
 ```bash
-node test/test-assets.js
+npm test
 ```
 
 ### Publishing
@@ -161,44 +121,14 @@ For manual publishing:
 npm publish
 ```
 
-## Quick Start
+### Authentication Setup
+The package uses environment variables for secure token management:
 
-1. **Install the package in your React project:**
-   ```bash
-   npm install @tvet-mis/psda-assets
-   ```
+- Copy `.npmrc.template` to `.npmrc`
+- Set `NODE_AUTH_TOKEN` environment variable
+- Never commit your actual token to version control
 
-2. **Import and use assets:**
-   ```typescript
-   import { psdaLogo, enTranslations } from '@tvet-mis/psda-assets';
-   
-   function App() {
-     return (
-       <div>
-         <img src={psdaLogo} alt="PSDA Logo" />
-         
-         {/* Load translations */}
-         <button onClick={() => {
-           fetch(enTranslations)
-             .then(res => res.json())
-             .then(data => console.log(data));
-         }}>
-           Load Translations
-         </button>
-       </div>
-     );
-   }
-   ```
-
-3. **Add new assets to the package:**
-   ```bash
-   # In the psda-assets project
-   npm run add-asset assets/images/new-logo.png newLogo
-   npm run build
-   git add .
-   git commit -m "Add new logo"
-   git push origin main
-   ```
+---
 
 ## Project Structure
 
@@ -223,6 +153,8 @@ psda-assets/
 ├── tsconfig.json
 └── README.md
 ```
+
+---
 
 ## GitHub Packages & CI/CD
 
@@ -267,6 +199,8 @@ The package uses environment variables for secure token management:
 - Copy `.npmrc.template` to `.npmrc`
 - Set `NODE_AUTH_TOKEN` environment variable
 - Never commit your actual token to version control
+
+---
 
 ## Contributing
 
