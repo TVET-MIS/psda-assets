@@ -1,5 +1,5 @@
 {
-  "name": "psda-assets",
+  "name": "@tvet-mis/psda-assets",
   "version": "1.0.0",
   "description": "Static assets package for PSDA projects including images, SVGs, and JSON files",
   "main": "dist/index.js",
@@ -11,6 +11,7 @@
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
+    "test": "node test/test-assets.js",
     "dev": "tsc --watch",
     "add-asset": "node scripts/add-asset.js"
   },
@@ -30,10 +31,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/psda-assets.git"
+    "url": "git+https://github.com/TVET-MIS/psda-assets.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/psda-assets/issues"
+    "url": "https://github.com/TVET-MIS/psda-assets/issues"
   },
-  "homepage": "https://github.com/yourusername/psda-assets#readme"
+  "homepage": "https://github.com/TVET-MIS/psda-assets#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 } 
