@@ -1,6 +1,6 @@
 # @tvet-mis/psda-assets
 
-A simple assets package for PSDA React projects.
+A simple assets package for PSDA React projects with TypeScript support.
 
 ## Installation
 
@@ -16,6 +16,27 @@ npm install @tvet-mis/psda-assets
 import { logo, config } from '@tvet-mis/psda-assets';
 
 function App() {
+  return (
+    <div>
+      <img src={logo} alt="PSDA Logo" />
+      <pre>{JSON.stringify(config, null, 2)}</pre>
+    </div>
+  );
+}
+```
+
+### TypeScript Support
+
+The package includes TypeScript declarations, so you can use it in TypeScript projects without any additional setup:
+
+```typescript
+import { logo, config, psdaLogo, enTranslations } from '@tvet-mis/psda-assets';
+
+interface AppProps {
+  // Your component props
+}
+
+function App({ ...props }: AppProps) {
   return (
     <div>
       <img src={logo} alt="PSDA Logo" />
