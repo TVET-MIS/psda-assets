@@ -1,6 +1,6 @@
 {
   "name": "@tvet-mis/psda-assets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Static assets package for PSDA projects including images, SVGs, and JSON files",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,7 +13,8 @@
     "prepare": "npm run build",
     "test": "node test/test-assets.js",
     "dev": "tsc --watch",
-    "add-asset": "node scripts/add-asset.js"
+    "add-asset": "node scripts/add-asset.js",
+    "setup-auth": "node scripts/setup-auth.js"
   },
   "keywords": [
     "assets",

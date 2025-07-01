@@ -1,0 +1,20 @@
+# GitHub Packages Registry Configuration Template
+# Copy this file to .npmrc and replace ${GITHUB_TOKEN} with your actual token
+
+# Set the registry for @tvet-mis scope
+@tvet-mis:registry=https://npm.pkg.github.com
+
+# Use environment variable for authentication token
+//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
+
+# Optional: Set organization scope
+//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
+//npm.pkg.github.com/:always-auth=true
+
+# Fallback to npm registry for other packages
+registry=https://registry.npmjs.org/
+
+# Instructions:
+# 1. Copy this file to .npmrc
+# 2. Set your GitHub token as environment variable: export GITHUB_TOKEN=your_token_here
+# 3. Or replace ${GITHUB_TOKEN} with your actual token (not recommended for security) 

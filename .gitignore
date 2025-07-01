@@ -18,6 +18,9 @@ build/
 .env.test.local
 .env.production.local
 
+# NPM configuration (contains tokens)
+.npmrc
+
 # IDE files
 .vscode/
 .idea/

@@ -238,10 +238,35 @@ See `.github/workflows/publish.yml` for the complete CI/CD configuration.
 
 ### Manual Publishing
 If you need to publish manually:
-```bash
-npm login --registry=https://npm.pkg.github.com
-npm publish
-```
+
+1. **Setup authentication:**
+   ```bash
+   npm run setup-auth
+   ```
+
+2. **Set your GitHub token:**
+   ```bash
+   # Windows (PowerShell)
+   $env:GITHUB_TOKEN="your_token_here"
+   
+   # Windows (Command Prompt)
+   set GITHUB_TOKEN=your_token_here
+   
+   # macOS/Linux
+   export GITHUB_TOKEN=your_token_here
+   ```
+
+3. **Publish:**
+   ```bash
+   npm publish
+   ```
+
+### Authentication Setup
+The package uses environment variables for secure token management:
+
+- Copy `.npmrc.template` to `.npmrc`
+- Set `GITHUB_TOKEN` environment variable
+- Never commit your actual token to version control
 
 ## Contributing
 
