@@ -1,0 +1,80 @@
+{
+  "common": {
+    "welcome": "خوش آمدید",
+    "login": "لاگ ان",
+    "logout": "لاگ آؤٹ",
+    "signup": "سائن اپ",
+    "email": "ای میل",
+    "password": "پاس ورڈ",
+    "confirmPassword": "پاس ورڈ کی تصدیق کریں",
+    "submit": "جمع کریں",
+    "cancel": "منسوخ کریں",
+    "save": "محفوظ کریں",
+    "delete": "حذف کریں",
+    "edit": "ترمیم کریں",
+    "add": "شامل کریں",
+    "search": "تلاش کریں",
+    "loading": "لوڈ ہو رہا ہے...",
+    "error": "خرابی",
+    "success": "کامیابی",
+    "warning": "انتباہ",
+    "info": "معلومات"
+  },
+  "auth": {
+    "loginTitle": "اپنے اکاؤنٹ میں سائن ان کریں",
+    "signupTitle": "نیا اکاؤنٹ بنائیں",
+    "forgotPassword": "پاس ورڈ بھول گئے؟",
+    "rememberMe": "مجھے یاد رکھیں",
+    "dontHaveAccount": "اکاؤنٹ نہیں ہے؟",
+    "alreadyHaveAccount": "پہلے سے اکاؤنٹ ہے؟",
+    "signInWith": "اس کے ساتھ سائن ان کریں",
+    "signUpWith": "اس کے ساتھ سائن اپ کریں",
+    "passwordRequirements": "پاس ورڈ کم از کم 8 حروف کا ہونا چاہیے",
+    "emailRequired": "ای میل درکار ہے",
+    "passwordRequired": "پاس ورڈ درکار ہے",
+    "invalidEmail": "براہ کرم درست ای میل ایڈریس درج کریں",
+    "passwordsDoNotMatch": "پاس ورڈز مماثل نہیں ہیں"
+  },
+  "navigation": {
+    "home": "ہوم",
+    "dashboard": "ڈیش بورڈ",
+    "profile": "پروفائل",
+    "settings": "ترتیبات",
+    "help": "مدد",
+    "about": "کے بارے میں",
+    "contact": "رابطہ"
+  },
+  "dashboard": {
+    "overview": "جائزہ",
+    "recentActivity": "حالیہ سرگرمیاں",
+    "quickActions": "فوری اقدامات",
+    "statistics": "اعداد و شمار",
+    "notifications": "نوٹیفیکیشنز"
+  },
+  "profile": {
+    "personalInfo": "ذاتی معلومات",
+    "firstName": "پہلا نام",
+    "lastName": "آخری نام",
+    "phone": "فون نمبر",
+    "address": "پتہ",
+    "updateProfile": "پروفائل اپ ڈیٹ کریں",
+    "changePassword": "پاس ورڈ تبدیل کریں",
+    "currentPassword": "موجودہ پاس ورڈ",
+    "newPassword": "نیا پاس ورڈ"
+  },
+  "errors": {
+    "networkError": "نیٹ ورک کی خرابی۔ براہ کرم اپنا کنکشن چیک کریں۔",
+    "serverError": "سرور کی خرابی۔ براہ کرم بعد میں دوبارہ کوشش کریں۔",
+    "notFound": "صفحہ نہیں ملا۔",
+    "unauthorized": "آپ کو اس وسائل تک رسائی کی اجازت نہیں ہے۔",
+    "forbidden": "رسائی ممنوع۔",
+    "validationError": "براہ کرم اپنا ان پٹ چیک کریں اور دوبارہ کوشش کریں۔"
+  },
+  "messages": {
+    "profileUpdated": "پروفائل کامیابی سے اپ ڈیٹ ہو گئی",
+    "passwordChanged": "پاس ورڈ کامیابی سے تبدیل ہو گیا",
+    "itemDeleted": "آئٹم کامیابی سے حذف ہو گئی",
+    "itemSaved": "آئٹم کامیابی سے محفوظ ہو گئی",
+    "changesDiscarded": "تبدیلیاں مسترد کر دی گئیں"
+  }
+} 

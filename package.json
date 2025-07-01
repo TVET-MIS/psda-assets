@@ -1,0 +1,39 @@
+{
+  "name": "psda-assets",
+  "version": "1.0.0",
+  "description": "Static assets package for PSDA projects including images, SVGs, and JSON files",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "assets"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "dev": "tsc --watch",
+    "add-asset": "node scripts/add-asset.js"
+  },
+  "keywords": [
+    "assets",
+    "images",
+    "svg",
+    "json",
+    "static",
+    "psda"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/psda-assets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/psda-assets/issues"
+  },
+  "homepage": "https://github.com/yourusername/psda-assets#readme"
+} 
