@@ -1,44 +1,20 @@
 {
   "name": "@tvet-mis/psda-assets",
-  "version": "1.0.5",
-  "description": "Static assets package for PSDA projects including images, SVGs, and JSON files",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "version": "1.0.6",
+  "description": "PSDA assets package for React projects",
+  "main": "index.js",
   "files": [
-    "dist",
-    "assets"
+    "assets",
+    "index.js"
   ],
   "scripts": {
-    "build": "tsc",
-    "prepare": "npm run build",
-    "test": "node test/test-assets.js",
-    "dev": "tsc --watch",
-    "add-asset": "node scripts/add-asset.js",
-    "setup-auth": "node scripts/setup-auth.js"
+    "build": "node scripts/build.js",
+    "test": "node test/test-assets.js"
   },
-  "keywords": [
-    "assets",
-    "images",
-    "svg",
-    "json",
-    "static",
-    "psda"
-  ],
-  "author": "Your Name",
+  "keywords": ["assets", "psda", "tvet", "react"],
+  "author": "TVET-MIS",
   "license": "MIT",
-  "devDependencies": {
-    "typescript": "^5.0.0",
-    "@types/node": "^20.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TVET-MIS/psda-assets.git"
-  },
-  "bugs": {
-    "url": "https://github.com/TVET-MIS/psda-assets/issues"
-  },
-  "homepage": "https://github.com/TVET-MIS/psda-assets#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/"
   }
 }
