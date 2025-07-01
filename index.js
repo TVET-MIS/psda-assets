@@ -1,11 +1,7 @@
-// Export asset paths as strings for easy use in React projects
-module.exports = {
-  // Logo assets
-  psdaLogo: './assets/svg/logos/psda_logo.svg',
-  logo: './assets/svg/logos/psda_logo.svg',
-  
-  // Translation files
-  enTranslations: './assets/commoni18n/locale/en/translation.json',
-  urTranslations: './assets/commoni18n/locale/ur/translation.json',
-  config: './assets/commoni18n/locale/en/translation.json'
-}; 
+import psdaLogo from './assets/svg/logos/psda_logo.svg';
+import logo from './assets/svg/logos/psda_logo.svg';
+import enTranslations from './assets/commoni18n/locale/en/translation.json';
+import urTranslations from './assets/commoni18n/locale/ur/translation.json';
+import config from './assets/commoni18n/locale/en/translation.json';
+
+export { psdaLogo, logo, enTranslations, urTranslations, config };
