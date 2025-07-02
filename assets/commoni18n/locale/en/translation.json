@@ -24,8 +24,15 @@
       }
     },
     "auth": {
+      "common":{
+           "placeholder":{
+        "CNICPlaceholder":"Enter CNIC"
+          }
+      },
       "login:":{},
-      "Signup:":{},
+      "signup:":{
+        "heading":"Create an account"
+      },
       "forgetPassword":{},
       "resetPassword":{},
       "verifyOTP":{},
@@ -36,7 +43,16 @@
           "validationError": "Please check your input and try again."
         },
         "success": {},
-        "warning": {}
+        "warning": {},
+        "required":{
+          "cnic":"CNIC is required.",
+          "cellNo":"Phone number required."
+        },
+        "patterns":{
+          "cellNoPattern":"Please enter a valid Pakistani phone number (e.g., 03XXXXXXXXX or +923XXXXXXXXX)",
+      "cnicPattern": "Please enter a valid Pakistani CNIC number in 13-digit format (e.g., 42101-1234567-1 or 4210112345671)"
+ 
+      }
       }
     },
     "navigation": {
