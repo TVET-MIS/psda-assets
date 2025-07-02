@@ -5,6 +5,7 @@
       "welcome": "Welcome",
       "search": "Search",
       "loading": "Loading...",
+      "saving": "Saving...",
       "error": "Error",
       "success": "Success",
       "warning": "Warning",
@@ -17,7 +18,9 @@
         "add": "Add",
         "back": "Back",
         "submit": "Submit",
-        "goHome": "Go Home"
+        "goHome": "Go Home",
+        "close": "Close",
+        "logout": "Logout"
       }
     },
     "auth": {
@@ -68,12 +71,7 @@
       "signup": "Sign Up"
     },
     "profile": {
-      "profile": "My Profile",
-      "personalInfo": "Personal Information",
-      "firstName": "First Name",
-      "lastName": "Last Name",
-      "phone": "Phone Number",
-      "address": "Address",
+      "profileTitle": "My Profile",
       "updateProfile": "Update Profile"
     },
     "messages": {
