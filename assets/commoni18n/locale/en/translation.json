@@ -10,6 +10,7 @@
       "success": "Success",
       "warning": "Warning",
       "info": "Information",
+      "secleft":"sec left",
       "buttons": {
         "cancel": "Cancel",
         "save": "Save",
@@ -20,22 +21,93 @@
         "submit": "Submit",
         "goHome": "Go Home",
         "close": "Close",
-        "logout": "Logout"
+        "logout": "Logout",
+        "login":"Login",
+        "signup":"Signup",
+        "resendOtp":"Resend OTP",
+        "setpassword":"Set Password",
+        "resetPassword":"Reset Password"
+      },
+      "text":{
+        "signupText":"signup"
       }
     },
     "auth": {
       "common":{
            "placeholder":{
-        "CNICPlaceholder":"Enter CNIC"
+              "CNICPlaceholder":"Enter CNIC",
+              "mobilePlaceholder":"Enter Phone No",
+              "passwordPlaceholder":"Enter Password",
+              "signInPasswordPlaceholder":"Password",
+              "confirmPasswordPlaceholder":"Confirm Password",
+              "emailPlaceholder":"Email"
+
           }
       },
-      "login:":{},
-      "signup:":{
-        "heading":"Create an account"
+      "login:":{
+        "loginText":"Login",
+        "heading":"Signin",
+        "forgotPassword":"Forgot Password?",
+        "dontHaveAccount":"Don’t have an account?",
+        "signupLink":"Register New User",
+        "validations":{
+            "emailRequired": "Email is required.",
+            "validEmail": "Please enter a valid email address.",
+            "passswordRequired": "Password is required.",
+            "minLength": "Password must be at least 8 characters.",
+            "maxLength": "Password must be at most 16 characters.",
+            "upperLetter": "Password must contain an uppercase letter.",
+            "lowerLetter": "Password must contain a lowercase letter.",
+            "aNumber": "Password must contain a number.",
+            "specialCharcter": "Password must contain a special character."
+        }
       },
-      "forgetPassword":{},
-      "resetPassword":{},
-      "verifyOTP":{},
+      "signup:":{
+        "heading":"Create an account",
+        "alreadyHaveAccount":"Already have an account?",
+        "validations":{
+          "cellNo": "Cell No is required",
+					"cellNoPattern": "Please enter a valid Pakistani phone number (e.g., 03XXXXXXXXX or +923XXXXXXXXX)",
+					"cnic":"CNIC is required.",
+          "cnicPattern":"Please enter a valid Pakistani CNIC number in 13-digit format (e.g., 42101-1234567-1 or 4210112345671)"
+        }
+      },
+      "forgetPassword":{
+        "heading":"Forgot Password",
+        "validations": {
+          "emailRequired": "Email is required.",
+          "validEmail": "Please enter a valid email address."
+        }
+      },
+      "resetPassword":{
+        "headingFromSignup":"Enter Password",
+        "headingFromResetPassword":"Reset Password",
+        "wantToSetPassword":"Enter Password you wants to set",
+        "validations": {
+          "passwordRequired": "Password is required.",
+          "conPasswordRequired": "Confirm Password is required.",
+          "minPasssword": "Password must be at least 8 characters.",
+          "maxPasssword": "Password must be at most 16 characters.",
+          "confirmMinPasssword": "Confirm Password must be at least 8 characters.",
+          "confirmMaxPasssword": "Confirm Password must at most 16 characters.",
+          "upperLetter": "Password must contain an uppercase letter.",
+          "lowerLetter": "Password must contain a lowercase letter.",
+          "aNumber": "Password must contain a number.",
+          "specialCharcter": "Password must contain a special character.",
+          "confirmPasswordRequired": "Confirm Password is required.",
+          "passwordMismatch": "Passwords do not match."
+        }
+
+      },
+      "verifyOTP":{
+        "heading":"OTP",
+        "otpCodeDescription":"Add OTP here you got on your registered mobile number",
+        "validations": {
+          "otpRequired": "OTP is required.",
+          "otpLength": "OTP must be 6 digits long.",
+          "otpNumeric": "OTP must be a number."
+        }
+      },
       "validations": {
         "error": {
           "unauthorized": "You are not authorized to access this resource.",
