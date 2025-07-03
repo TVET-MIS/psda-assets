@@ -40,7 +40,8 @@
               "passwordPlaceholder":"Enter Password",
               "signInPasswordPlaceholder":"Password",
               "confirmPasswordPlaceholder":"Confirm Password",
-              "emailPlaceholder":"Email"
+              "emailPlaceholder":"Email",
+              "test": "test"
 
           }
       },
