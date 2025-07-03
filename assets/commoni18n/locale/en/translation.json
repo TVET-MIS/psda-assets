@@ -45,7 +45,7 @@
 
           }
       },
-      "login:":{
+      "login":{
         "loginText":"Login",
         "heading":"Signin",
         "forgotPassword":"Forgot Password?",
@@ -63,7 +63,7 @@
             "specialCharcter": "Password must contain a special character."
         }
       },
-      "signup:":{
+      "signup":{
         "heading":"Create an account",
         "alreadyHaveAccount":"Already have an account?",
         "validations":{
