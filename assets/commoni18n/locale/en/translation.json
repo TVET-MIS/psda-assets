@@ -23,7 +23,7 @@
         "close": "Close",
         "logout": "Logout",
         "login":"Login",
-        "signup":"Signup",
+        "signup":"SignUp",
         "resendOtp":"Resend OTP",
         "setpassword":"Set Password",
         "resetPassword":"Reset Password"
@@ -41,12 +41,13 @@
               "signInPasswordPlaceholder":"Password",
               "confirmPasswordPlaceholder":"Confirm Password",
               "emailPlaceholder":"Email",
-              "test": "test"
-
+              "test": "test",
+              "email":"Email",
+              "mobile":"Mobile No."
           }
       },
       "login":{
-        "loginText":"Login",
+        "loginText":"Signin",
         "heading":"Signin",
         "forgotPassword":"Forgot Password?",
         "dontHaveAccount":"Don’t have an account?",
@@ -64,7 +65,7 @@
         }
       },
       "signup":{
-        "heading":"Create an account",
+        "heading":"SignUp",
         "alreadyHaveAccount":"Already have an account?",
         "validations":{
           "cellNo": "Cell No is required",
@@ -83,7 +84,7 @@
       "resetPassword":{
         "headingFromSignup":"Enter Password",
         "headingFromResetPassword":"Reset Password",
-        "wantToSetPassword":"Enter Password you wants to set",
+        "wantToSetPassword":"Enter password you wants to reset",
         "validations": {
           "passwordRequired": "Password is required.",
           "conPasswordRequired": "Confirm Password is required.",
@@ -102,7 +103,7 @@
       },
       "verifyOTP":{
         "heading":"OTP",
-        "otpCodeDescription":"Add OTP here you got on your registered mobile number",
+        "otpCodeDescription":"Add OTP here you got on your registered email.",
         "validations": {
           "otpRequired": "OTP is required.",
           "otpLength": "OTP must be 6 digits long.",
