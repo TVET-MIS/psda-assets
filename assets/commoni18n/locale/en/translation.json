@@ -30,7 +30,9 @@
         "next":"Next",
         "previous":"Previous",
         "filter":"Filter",
-        "refresh":"Refresh"
+        "refresh":"Refresh",
+        "accept":"Accept",
+        "reject":"Reject"
       },
       "text":{
         "signupText":"signup"
