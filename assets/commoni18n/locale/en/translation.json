@@ -26,7 +26,11 @@
         "signup":"SignUp",
         "resendOtp":"Resend OTP",
         "setpassword":"Set Password",
-        "resetPassword":"Reset Password"
+        "resetPassword":"Reset Password",
+        "next":"Next",
+        "previous":"Previous",
+        "filter":"Filter",
+        "refresh":"Refresh"
       },
       "text":{
         "signupText":"signup"
