@@ -30,7 +30,7 @@ function App() {
 The package includes TypeScript declarations, so you can use it in TypeScript projects without any additional setup:
 
 ```typescript
-import { logo, config, psdaLogo, enTranslations } from '@tvet-mis/psda-assets';
+import { logo, psda404, psda500, config, psdaLogo, enTranslations } from '@tvet-mis/psda-assets';
 
 interface AppProps {
   // Your component props
