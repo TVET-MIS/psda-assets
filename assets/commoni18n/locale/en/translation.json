@@ -181,6 +181,21 @@
         "pageNotExists": "The page you are looking for does not exist.",
         "somethingWentWrong": "Oops! Something went wrong."
       }
+    },
+    "pages":{
+      "404":{
+        "heading":"404",
+        "subHeading":"Page Not Found",
+        "description":"The page you are looking for does not exist.",
+        "buttonText":"Go to Home"
+      },
+      "500":{
+        "heading":"500",
+        "code": 500,
+        "subHeading":"Internal Server Error",
+        "description":"The server encountered an internal error and was unable to complete your request. Please try again later.",
+        "buttonText":"Go to Home"
+      }
     }
   }
 }
