@@ -74,8 +74,10 @@
         "heading":"SignUp",
         "alreadyHaveAccount":"Already have an account?",
         "validations":{
-          "cellNo": "Cell No is required",
-					"cellNoPattern": "Please enter a valid Pakistani phone number (e.g., 03XXXXXXXXX or +923XXXXXXXXX)",
+          "emailRequired": "Email is required.",
+          "validEmail": "Please enter a valid email address.",
+          "cellNo": "Cell No is required.",
+					"cellNoPattern": "Please enter a valid Pakistani phone number (e.g., 03XXXXXXXXX or +923XXXXXXXXX).",
           "passwordRequired": "Password is required.",
           "conPasswordRequired": "Confirm Password is required.",
           "minPasssword": "Password must be at least 8 characters.",
