@@ -1,80 +1,242 @@
 {
-  "common": {
-    "welcome": "خوش آمدید",
-    "login": "لاگ ان",
-    "logout": "لاگ آؤٹ",
-    "signup": "سائن اپ",
-    "email": "ای میل",
-    "password": "پاس ورڈ",
-    "confirmPassword": "پاس ورڈ کی تصدیق کریں",
-    "submit": "جمع کریں",
-    "cancel": "منسوخ کریں",
-    "save": "محفوظ کریں",
-    "delete": "حذف کریں",
-    "edit": "ترمیم کریں",
-    "add": "شامل کریں",
-    "search": "تلاش کریں",
-    "loading": "لوڈ ہو رہا ہے...",
-    "error": "خرابی",
-    "success": "کامیابی",
-    "warning": "انتباہ",
-    "info": "معلومات"
-  },
-  "auth": {
-    "loginTitle": "اپنے اکاؤنٹ میں سائن ان کریں",
-    "signupTitle": "نیا اکاؤنٹ بنائیں",
-    "forgotPassword": "پاس ورڈ بھول گئے؟",
-    "rememberMe": "مجھے یاد رکھیں",
-    "dontHaveAccount": "اکاؤنٹ نہیں ہے؟",
-    "alreadyHaveAccount": "پہلے سے اکاؤنٹ ہے؟",
-    "signInWith": "اس کے ساتھ سائن ان کریں",
-    "signUpWith": "اس کے ساتھ سائن اپ کریں",
-    "passwordRequirements": "پاس ورڈ کم از کم 8 حروف کا ہونا چاہیے",
-    "emailRequired": "ای میل درکار ہے",
-    "passwordRequired": "پاس ورڈ درکار ہے",
-    "invalidEmail": "براہ کرم درست ای میل ایڈریس درج کریں",
-    "passwordsDoNotMatch": "پاس ورڈز مماثل نہیں ہیں"
-  },
-  "navigation": {
-    "home": "ہوم",
-    "dashboard": "ڈیش بورڈ",
-    "profile": "پروفائل",
-    "settings": "ترتیبات",
-    "help": "مدد",
-    "about": "کے بارے میں",
-    "contact": "رابطہ"
-  },
-  "dashboard": {
-    "overview": "جائزہ",
-    "recentActivity": "حالیہ سرگرمیاں",
-    "quickActions": "فوری اقدامات",
-    "statistics": "اعداد و شمار",
-    "notifications": "نوٹیفیکیشنز"
-  },
-  "profile": {
-    "personalInfo": "ذاتی معلومات",
-    "firstName": "پہلا نام",
-    "lastName": "آخری نام",
-    "phone": "فون نمبر",
-    "address": "پتہ",
-    "updateProfile": "پروفائل اپ ڈیٹ کریں",
-    "changePassword": "پاس ورڈ تبدیل کریں",
-    "currentPassword": "موجودہ پاس ورڈ",
-    "newPassword": "نیا پاس ورڈ"
-  },
-  "errors": {
-    "networkError": "نیٹ ورک کی خرابی۔ براہ کرم اپنا کنکشن چیک کریں۔",
-    "serverError": "سرور کی خرابی۔ براہ کرم بعد میں دوبارہ کوشش کریں۔",
-    "notFound": "صفحہ نہیں ملا۔",
-    "unauthorized": "آپ کو اس وسائل تک رسائی کی اجازت نہیں ہے۔",
-    "forbidden": "رسائی ممنوع۔",
-    "validationError": "براہ کرم اپنا ان پٹ چیک کریں اور دوبارہ کوشش کریں۔"
-  },
-  "messages": {
-    "profileUpdated": "پروفائل کامیابی سے اپ ڈیٹ ہو گئی",
-    "passwordChanged": "پاس ورڈ کامیابی سے تبدیل ہو گیا",
-    "itemDeleted": "آئٹم کامیابی سے حذف ہو گئی",
-    "itemSaved": "آئٹم کامیابی سے محفوظ ہو گئی",
-    "changesDiscarded": "تبدیلیاں مسترد کر دی گئیں"
+  "psdaCommon": {
+    "common": {
+      "projectTitle": "پنجاب اسکلز ڈویلپمنٹ اتھارٹی",
+      "welcome": "خوش آمدید",
+      "search": "تلاش کریں",
+      "loading": "لوڈ ہو رہا ہے...",
+      "saving": "محفوظ ہو رہا ہے...",
+      "error": "خرابی",
+      "success": "کامیابی",
+      "warning": "انتباہ",
+      "info": "معلومات",
+      "secleft": "سیکنڈ باقی",
+      "buttons": {
+        "cancel": "منسوخ کریں",
+        "save": "محفوظ کریں",
+        "delete": "حذف کریں",
+        "edit": "ترمیم کریں",
+        "add": "شامل کریں",
+        "back": "پیچھے جائیں",
+        "submit": "جمع کروائیں",
+        "goHome": "گھر جائیں",
+        "close": "بند کریں",
+        "logout": "لاگ آؤٹ",
+        "login": "لاگ ان",
+        "signup": "رجسٹر کریں",
+        "resendOtp": "OTP دوبارہ بھیجیں",
+        "setpassword": "پاس ورڈ سیٹ کریں",
+        "resetPassword": "پاس ورڈ ری سیٹ کریں",
+        "next": "اگلا",
+        "previous": "پچھلا",
+        "filter": "فلٹر کریں",
+        "refresh": "ریفریش کریں",
+        "accept": "قبول کریں",
+        "reject": "مسترد کریں"
+      },
+      "text": {
+        "signupText": "رجسٹریشن"
+      }
+    },
+    "auth": {
+      "common": {
+        "placeholder": {
+          "CNICPlaceholder": "CNIC درج کریں",
+          "mobilePlaceholder": "فون نمبر درج کریں",
+          "passwordPlaceholder": "پاس ورڈ درج کریں",
+          "signInPasswordPlaceholder": "پاس ورڈ",
+          "confirmPasswordPlaceholder": "پاس ورڈ کی تصدیق کریں",
+          "emailPlaceholder": "ای میل",
+          "test": "ٹیسٹ",
+          "email": "ای میل",
+          "mobile": "موبائل نمبر"
+        }
+      },
+      "login": {
+        "loginText": "سائن ان",
+        "heading": "سائن ان",
+        "forgotPassword": "پاس ورڈ بھول گئے؟",
+        "dontHaveAccount": "کھاتہ نہیں ہے؟",
+        "signupLink": "نیا صارف رجسٹر کریں",
+        "validations": {
+          "emailRequired": "ای میل درکار ہے۔",
+          "validEmail": "براہ کرم درست ای میل ایڈریس درج کریں۔",
+          "passswordRequired": "پاس ورڈ درکار ہے۔",
+          "minLength": "پاس ورڈ کم از کم 8 حروف کا ہونا چاہیے۔",
+          "maxLength": "پاس ورڈ زیادہ سے زیادہ 16 حروف کا ہو سکتا ہے۔",
+          "upperLetter": "پاس ورڈ میں ایک بڑا حرف ہونا ضروری ہے۔",
+          "lowerLetter": "پاس ورڈ میں ایک چھوٹا حرف ہونا ضروری ہے۔",
+          "aNumber": "پاس ورڈ میں ایک عدد ہونا ضروری ہے۔",
+          "specialCharcter": "پاس ورڈ میں ایک خاص علامت ہونی چاہیے۔"
+        }
+      },
+      "signup": {
+        "heading": "رجسٹریشن",
+        "alreadyHaveAccount": "پہلے سے کھاتہ موجود ہے؟",
+        "validations": {
+          "emailRequired": "ای میل درکار ہے۔",
+          "validEmail": "براہ کرم درست ای میل ایڈریس درج کریں۔",
+          "cellNo": "فون نمبر درکار ہے۔",
+          "cellNoPattern": "براہ کرم درست پاکستانی فون نمبر درج کریں (مثال: 03XXXXXXXXX یا +923XXXXXXXXX)",
+          "passwordRequired": "پاس ورڈ درکار ہے۔",
+          "conPasswordRequired": "پاس ورڈ کی تصدیق درکار ہے۔",
+          "minPasssword": "پاس ورڈ کم از کم 8 حروف کا ہونا چاہیے۔",
+          "maxPasssword": "پاس ورڈ زیادہ سے زیادہ 16 حروف کا ہو سکتا ہے۔",
+          "confirmMinPasssword": "تصدیقی پاس ورڈ کم از کم 8 حروف کا ہونا چاہیے۔",
+          "confirmMaxPasssword": "تصدیقی پاس ورڈ زیادہ سے زیادہ 16 حروف کا ہو سکتا ہے۔",
+          "upperLetter": "پاس ورڈ میں ایک بڑا حرف ہونا ضروری ہے۔",
+          "lowerLetter": "پاس ورڈ میں ایک چھوٹا حرف ہونا ضروری ہے۔",
+          "aNumber": "پاس ورڈ میں ایک عدد ہونا ضروری ہے۔",
+          "specialCharcter": "پاس ورڈ میں ایک خاص علامت ہونی چاہیے۔",
+          "confirmPasswordRequired": "تصدیقی پاس ورڈ درکار ہے۔",
+          "passwordMismatch": "پاس ورڈز مماثل نہیں ہیں۔"
+        }
+      },
+      "forgetPassword": {
+        "heading": "پاس ورڈ بھول گئے",
+        "validations": {
+          "emailRequired": "ای میل درکار ہے۔",
+          "validEmail": "براہ کرم درست ای میل ایڈریس درج کریں۔"
+        }
+      },
+      "resetPassword": {
+        "headingFromSignup": "پاس ورڈ درج کریں",
+        "headingFromResetPassword": "پاس ورڈ ری سیٹ کریں",
+        "wantToSetPassword": "وہ پاس ورڈ درج کریں جو آپ ری سیٹ کرنا چاہتے ہیں",
+        "validations": {
+          "passwordRequired": "پاس ورڈ درکار ہے۔",
+          "conPasswordRequired": "تصدیقی پاس ورڈ درکار ہے۔",
+          "minPasssword": "پاس ورڈ کم از کم 8 حروف کا ہونا چاہیے۔",
+          "maxPasssword": "پاس ورڈ زیادہ سے زیادہ 16 حروف کا ہو سکتا ہے۔",
+          "confirmMinPasssword": "تصدیقی پاس ورڈ کم از کم 8 حروف کا ہونا چاہیے۔",
+          "confirmMaxPasssword": "تصدیقی پاس ورڈ زیادہ سے زیادہ 16 حروف کا ہو سکتا ہے۔",
+          "upperLetter": "پاس ورڈ میں ایک بڑا حرف ہونا ضروری ہے۔",
+          "lowerLetter": "پاس ورڈ میں ایک چھوٹا حرف ہونا ضروری ہے۔",
+          "aNumber": "پاس ورڈ میں ایک عدد ہونا ضروری ہے۔",
+          "specialCharcter": "پاس ورڈ میں ایک خاص علامت ہونی چاہیے۔",
+          "confirmPasswordRequired": "تصدیقی پاس ورڈ درکار ہے۔",
+          "passwordMismatch": "پاس ورڈز مماثل نہیں ہیں۔"
+        }
+      },
+      "verifyOTP": {
+        "heading": "OTP",
+        "otpCodeDescription": "اپنے رجسٹرڈ ای میل پر موصول ہونے والا OTP یہاں درج کریں۔",
+        "validations": {
+          "otpRequired": "OTP درکار ہے۔",
+          "otpLength": "OTP 6 ہندسوں پر مشتمل ہونا چاہیے۔",
+          "otpNumeric": "OTP ایک عدد ہونا چاہیے۔"
+        }
+      },
+      "validations": {
+        "error": {
+          "unauthorized": "آپ کو اس وسیلے تک رسائی کی اجازت نہیں ہے۔",
+          "forbidden": "رسائی ممنوع ہے۔",
+          "validationError": "براہ کرم اپنا اندراج چیک کریں اور دوبارہ کوشش کریں۔"
+        },
+        "success": {},
+        "warning": {},
+        "required": {
+          "cnic": "CNIC درکار ہے۔",
+          "cellNo": "فون نمبر درکار ہے۔"
+        },
+        "patterns": {
+          "cellNoPattern": "براہ کرم درست پاکستانی فون نمبر درج کریں (مثال: 03XXXXXXXXX یا +923XXXXXXXXX)",
+          "cnicPattern": "براہ کرم درست پاکستانی CNIC نمبر 13 ہندسوں کی شکل میں درج کریں (مثال: 42101-1234567-1 یا 4210112345671)"
+        }
+      }
+    },
+    "navigation": {
+      "home": "گھر",
+      "dashboard": "ڈیش بورڈ",
+      "profile": "پروفائل",
+      "settings": "ترتیبات",
+      "help": "مدد",
+      "about": "ہمارے بارے میں",
+      "contact": "رابطہ",
+      "privacyPolicy": "رازداری کی پالیسی",
+      "termsOfService": "شرائط و ضوابط",
+      "login": "لاگ ان",
+      "signup": "رجسٹر کریں"
+    },
+    "dashboard": {
+      "overview": "جائزہ",
+      "recentActivity": "حالیہ سرگرمیاں",
+      "quickActions": "فوری اقدامات",
+      "statistics": "شماریات",
+      "notifications": "اطلاعات"
+    },
+    "footer": {
+      "copyright": "کاپی رائٹ © {{سال}}",
+      "allRightsReserved": "تمام حقوق محفوظ ہیں۔",
+      "poweredBy": "پروان چڑھایا",
+      "organizationName": "سنگل اسکل ڈیٹا بیس",
+      "termsOfService": "شرائط و ضوابط",
+      "privacyPolicy": "رازداری کی پالیسی",
+      "contact": "رابطہ",
+      "login": "لاگ ان",
+      "signup": "رجسٹر کریں"
+    },
+    "profile": {
+      "profileTitle": "میرا پروفائل",
+      "updateProfile": "پروفائل اپ ڈیٹ کریں",
+      "buttons": {
+        "logout": "لاگ آؤٹ",
+        "save": "محفوظ کریں",
+        "edit": "ترمیم کریں"
+      },
+      "form": {
+        "email": {
+          "placeholder": "اپنا ای میل ایڈریس درج کریں",
+          "label": "ای میل ایڈریس"
+        },
+        "firstName": {
+          "placeholder": "اپنا پہلا نام درج کریں",
+          "label": "پہلا نام"
+        },
+        "lastName": {
+          "placeholder": "اپنا آخری نام درج کریں",
+          "label": "آخری نام"
+        },
+        "phone": {
+          "placeholder": "اپنا فون نمبر درج کریں",
+          "label": "فون نمبر"
+        },
+        "validations": {
+          "emailRequired": "ای میل درکار ہے",
+          "validEmail": "براہ کرم درست ای میل ایڈریس درج کریں",
+          "firstName": "پہلا نام درکار ہے",
+          "lastName": "آخری نام درکار ہے",
+          "cellNo": "فون نمبر درکار ہے",
+          "cellNoPattern": "براہ کرم درست فون نمبر درج کریں"
+        }
+      }
+    },
+    "messages": {
+      "success": {},
+      "error": {
+        "serverErrorTitle": "اندرونی سرور خرابی",
+        "networkError": "نیٹ ورک خرابی۔ براہ کرم اپنا کنکشن چیک کریں۔",
+        "serverError": "سرور خرابی۔ براہ کرم بعد میں دوبارہ کوشش کریں۔",
+        "serverUnavailable": "سرور فی الحال دستیاب نہیں ہے۔ براہ کرم بعد میں دوبارہ کوشش کریں۔",
+        "notFound": "صفحہ نہیں ملا۔",
+        "pageNotExists": "جس صفحے کی آپ تلاش کر رہے ہیں وہ موجود نہیں ہے۔",
+        "somethingWentWrong": "اوہو! کچھ غلط ہو گیا۔"
+      }
+    },
+    "pages": {
+      "404": {
+        "heading": "404",
+        "subHeading": "صفحہ نہیں ملا",
+        "description": "جس صفحے کی آپ تلاش کر رہے ہیں وہ موجود نہیں ہے۔",
+        "buttonText": "گھر جائیں"
+      },
+      "500": {
+        "heading": "500",
+        "code": 500,
+        "subHeading": "اندرونی سرور خرابی",
+        "description": "سرور کو ایک اندرونی خرابی کا سامنا ہوا ہے اور آپ کی درخواست مکمل نہیں کر سکا۔ براہ کرم بعد میں دوبارہ کوشش کریں۔",
+        "buttonText": "گھر جائیں"
+      }
+    }
   }
-} 
+}

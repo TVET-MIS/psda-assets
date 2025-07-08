@@ -10,7 +10,7 @@
       "success": "Success",
       "warning": "Warning",
       "info": "Information",
-      "secleft":"sec left",
+      "secleft": "sec left",
       "buttons": {
         "cancel": "Cancel",
         "save": "Save",
@@ -22,58 +22,58 @@
         "goHome": "Go Home",
         "close": "Close",
         "logout": "Logout",
-        "login":"Login",
-        "signup":"SignUp",
-        "resendOtp":"Resend OTP",
-        "setpassword":"Set Password",
-        "resetPassword":"Reset Password",
-        "next":"Next",
-        "previous":"Previous",
-        "filter":"Filter",
-        "refresh":"Refresh",
-        "accept":"Accept",
-        "reject":"Reject"
+        "login": "Login",
+        "signup": "SignUp",
+        "resendOtp": "Resend OTP",
+        "setpassword": "Set Password",
+        "resetPassword": "Reset Password",
+        "next": "Next",
+        "previous": "Previous",
+        "filter": "Filter",
+        "refresh": "Refresh",
+        "accept": "Accept",
+        "reject": "Reject"
       },
-      "text":{
-        "signupText":"signup"
+      "text": {
+        "signupText": "signup"
       }
     },
     "auth": {
-      "common":{
-           "placeholder":{
-              "CNICPlaceholder":"Enter CNIC",
-              "mobilePlaceholder":"Enter Phone No",
-              "passwordPlaceholder":"Enter Password",
-              "signInPasswordPlaceholder":"Password",
-              "confirmPasswordPlaceholder":"Confirm Password",
-              "emailPlaceholder":"Email",
-              "test": "test",
-              "email":"Email",
-              "mobile":"Mobile No."
-          }
-      },
-      "login":{
-        "loginText":"Signin",
-        "heading":"Signin",
-        "forgotPassword":"Forgot Password?",
-        "dontHaveAccount":"Don’t have an account?",
-        "signupLink":"Register New User",
-        "validations":{
-            "emailRequired": "Email is required.",
-            "validEmail": "Please enter a valid email address.",
-            "passswordRequired": "Password is required.",
-            "minLength": "Password must be at least 8 characters.",
-            "maxLength": "Password must be at most 16 characters.",
-            "upperLetter": "Password must contain an uppercase letter.",
-            "lowerLetter": "Password must contain a lowercase letter.",
-            "aNumber": "Password must contain a number.",
-            "specialCharcter": "Password must contain a special character."
+      "common": {
+        "placeholder": {
+          "CNICPlaceholder": "Enter CNIC",
+          "mobilePlaceholder": "Enter Phone No",
+          "passwordPlaceholder": "Enter Password",
+          "signInPasswordPlaceholder": "Password",
+          "confirmPasswordPlaceholder": "Confirm Password",
+          "emailPlaceholder": "Email",
+          "test": "test",
+          "email": "Email",
+          "mobile": "Mobile No."
         }
       },
-      "signup":{
-        "heading":"SignUp",
-        "alreadyHaveAccount":"Already have an account?",
-        "validations":{
+      "login": {
+        "loginText": "Signin",
+        "heading": "Signin",
+        "forgotPassword": "Forgot Password?",
+        "dontHaveAccount": "Don’t have an account?",
+        "signupLink": "Register New User",
+        "validations": {
+          "emailRequired": "Email is required.",
+          "validEmail": "Please enter a valid email address.",
+          "passswordRequired": "Password is required.",
+          "minLength": "Password must be at least 8 characters.",
+          "maxLength": "Password must be at most 16 characters.",
+          "upperLetter": "Password must contain an uppercase letter.",
+          "lowerLetter": "Password must contain a lowercase letter.",
+          "aNumber": "Password must contain a number.",
+          "specialCharcter": "Password must contain a special character."
+        }
+      },
+      "signup": {
+        "heading": "SignUp",
+        "alreadyHaveAccount": "Already have an account?",
+        "validations": {
           "emailRequired": "Email is required.",
           "validEmail": "Please enter a valid email address.",
           "cellNo": "Phone No is required.",
@@ -92,17 +92,17 @@
           "passwordMismatch": "Passwords do not match."
         }
       },
-      "forgetPassword":{
-        "heading":"Forgot Password",
+      "forgetPassword": {
+        "heading": "Forgot Password",
         "validations": {
           "emailRequired": "Email is required.",
           "validEmail": "Please enter a valid email address."
         }
       },
-      "resetPassword":{
-        "headingFromSignup":"Enter Password",
-        "headingFromResetPassword":"Reset Password",
-        "wantToSetPassword":"Enter password you wants to reset",
+      "resetPassword": {
+        "headingFromSignup": "Enter Password",
+        "headingFromResetPassword": "Reset Password",
+        "wantToSetPassword": "Enter password you wants to reset",
         "validations": {
           "passwordRequired": "Password is required.",
           "conPasswordRequired": "Confirm Password is required.",
@@ -117,11 +117,10 @@
           "confirmPasswordRequired": "Confirm Password is required.",
           "passwordMismatch": "Passwords do not match."
         }
-
       },
-      "verifyOTP":{
-        "heading":"OTP",
-        "otpCodeDescription":"Add OTP here you got on your registered email.",
+      "verifyOTP": {
+        "heading": "OTP",
+        "otpCodeDescription": "Add OTP here you got on your registered email.",
         "validations": {
           "otpRequired": "OTP is required.",
           "otpLength": "OTP must be 6 digits long.",
@@ -136,15 +135,14 @@
         },
         "success": {},
         "warning": {},
-        "required":{
-          "cnic":"CNIC is required.",
-          "cellNo":"Phone number required."
+        "required": {
+          "cnic": "CNIC is required.",
+          "cellNo": "Phone number required."
         },
-        "patterns":{
-          "cellNoPattern":"Please enter a valid Pakistani phone number (e.g., 03XXXXXXXXX or +923XXXXXXXXX)",
-      "cnicPattern": "Please enter a valid Pakistani CNIC number in 13-digit format (e.g., 42101-1234567-1 or 4210112345671)"
- 
-      }
+        "patterns": {
+          "cellNoPattern": "Please enter a valid Pakistani phone number (e.g., 03XXXXXXXXX or +923XXXXXXXXX)",
+          "cnicPattern": "Please enter a valid Pakistani CNIC number in 13-digit format (e.g., 42101-1234567-1 or 4210112345671)"
+        }
       }
     },
     "navigation": {
@@ -180,7 +178,39 @@
     },
     "profile": {
       "profileTitle": "My Profile",
-      "updateProfile": "Update Profile"
+      "updateProfile": "Update Profile",
+      "buttons": {
+        "logout": "Logout",
+        "save": "Save",
+        "edit": "Edit",
+        "cancel": "Cancel"
+      },
+      "form": {
+        "email": {
+          "placeholder": "Enter your email address",
+          "label": "Email Address"
+        },
+        "firstName": {
+          "placeholder": "First Name",
+          "label": "First Name"
+        },
+        "lastName": {
+          "placeholder": "Last Name",
+          "label": "Last Name"
+        },
+        "phone": {
+          "placeholder": "Enter your phone number",
+          "label": "Phone Number"
+        },
+        "validations": {
+          "emailRequired": "Email is required",
+          "validEmail": "Please enter a valid email address",
+          "firstName": "First name is required",
+          "lastName": "Last name is required",
+          "cellNo": "Phone number is required",
+          "cellNoPattern": "Please enter a valid Pakistani phone number (e.g., 03XXXXXXXXX or +923XXXXXXXXX)"
+        }
+      }
     },
     "messages": {
       "success": {},
@@ -199,19 +229,19 @@
 
       }
     },
-    "pages":{
-      "404":{
-        "heading":"404",
-        "subHeading":"Page Not Found",
-        "description":"The page you are looking for does not exist.",
-        "buttonText":"Go to Home"
+    "pages": {
+      "404": {
+        "heading": "404",
+        "subHeading": "Page Not Found",
+        "description": "The page you are looking for does not exist.",
+        "buttonText": "Go to Home"
       },
-      "500":{
-        "heading":"500",
+      "500": {
+        "heading": "500",
         "code": 500,
-        "subHeading":"Internal Server Error",
-        "description":"The server encountered an internal error and was unable to complete your request. Please try again later.",
-        "buttonText":"Go to Home"
+        "subHeading": "Internal Server Error",
+        "description": "The server encountered an internal error and was unable to complete your request. Please try again later.",
+        "buttonText": "Go to Home"
       }
     }
   }
