@@ -208,7 +208,7 @@
           "firstName": "First name is required",
           "lastName": "Last name is required",
           "cellNo": "Phone number is required",
-          "cellNoPattern": "Please enter a valid phone number"
+          "cellNoPattern": "Please enter a valid Pakistani phone number (e.g., 03XXXXXXXXX or +923XXXXXXXXX)"
         }
       }
     },
