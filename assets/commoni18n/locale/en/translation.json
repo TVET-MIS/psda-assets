@@ -76,7 +76,7 @@
         "validations":{
           "emailRequired": "Email is required.",
           "validEmail": "Please enter a valid email address.",
-          "cellNo": "Cell No is required.",
+          "cellNo": "Phone No is required.",
 					"cellNoPattern": "Please enter a valid Pakistani phone number (e.g., 03XXXXXXXXX or +923XXXXXXXXX).",
           "passwordRequired": "Password is required.",
           "conPasswordRequired": "Confirm Password is required.",
@@ -191,7 +191,12 @@
         "serverUnavailable": "Server is currently unavailable. Please try again later.",
         "notFound": "Page not found.",
         "pageNotExists": "The page you are looking for does not exist.",
-        "somethingWentWrong": "Oops! Something went wrong."
+        "somethingWentWrong": "Oops! Something went wrong.",
+				"unauthorized": "You are not authorized to perform this action.",
+        "sessionExpired":"Your session has been expired, please login again.",
+				"genericError": "An error occurred. Please try again."
+
+
       }
     },
     "pages":{
