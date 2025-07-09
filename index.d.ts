@@ -6,6 +6,7 @@ declare module '@tvet-mis/psda-assets' {
   export const psda404: string;
   export const psda500: string;
   export const bg: string;
+  export const whatsappIcon: string;
   export const enTranslations: Record<string, any>;  // JSON will be typed as a generic object
   export const urTranslations: Record<string, any>;
 }

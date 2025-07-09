@@ -4,6 +4,7 @@ import psda500 from './assets/svg/imgs/500.svg';
 import bg from './assets/svg/imgs/bg_image.svg';
 import enTranslations from './assets/commoni18n/locale/en/translation.json';
 import urTranslations from './assets/commoni18n/locale/ur/translation.json';
+import whatsappIcon from './assets/svg/icons/whatsapp.svg';
 
 // Export the assets
-export { psdaLogo, psda404, psda500, bg, enTranslations, urTranslations };
+export { psdaLogo, psda404,  psda500, bg, whatsappIcon, enTranslations, urTranslations };
