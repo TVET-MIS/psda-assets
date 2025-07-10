@@ -17,6 +17,6 @@ export {
   whatsappIcon,
   enTranslations,
   urTranslations,
-  userProfile,
   userProfileMain,
+  userProfile,
 };
