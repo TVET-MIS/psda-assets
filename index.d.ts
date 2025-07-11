@@ -5,6 +5,8 @@ declare module '@tvet-mis/psda-assets' {
   export const psdaLogo: string;  // SVG import will return a string (URL)
   export const psda404: string;
   export const psda500: string;
+  export const userProfileMain: string;
+  export const userProfile: string;
   export const bg: string;
   export const whatsappIcon: string;
   export const enTranslations: Record<string, any>;  // JSON will be typed as a generic object
