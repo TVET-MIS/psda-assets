@@ -11,6 +11,7 @@
       "warning": "Warning",
       "info": "Information",
       "secleft": "sec left",
+      "notAvailable":"N/A",
       "buttons": {
         "cancel": "Cancel",
         "save": "Save",
