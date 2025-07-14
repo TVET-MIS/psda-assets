@@ -226,8 +226,6 @@
 				"unauthorized": "You are not authorized to perform this action.",
         "sessionExpired":"Your session has been expired, please login again.",
 				"genericError": "An error occurred. Please try again."
-
-
       }
     },
     "pages": {
