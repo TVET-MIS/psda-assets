@@ -33,7 +33,9 @@
         "filter": "Filter",
         "refresh": "Refresh",
         "accept": "Accept",
-        "reject": "Reject"
+        "reject": "Reject",
+        "yes": "Yes",
+        "no": "No"
       },
       "text": {
         "signupText": "signup"
@@ -267,6 +269,10 @@
         "description": "The server encountered an internal error and was unable to complete your request. Please try again later.",
         "buttonText": "Go to Home"
       }
+    },
+    "logout":{
+      "title": "Are you sure you want to logout?",
+      "description": "You will be enroute to the login screen."
     }
   }
 }
