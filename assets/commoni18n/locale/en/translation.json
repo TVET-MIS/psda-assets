@@ -59,6 +59,7 @@
         }
       },
       "login": {
+      "welcomeBack":"Welcome back! Please sign in to your account.",
         "loginText": "Signin",
         "heading": "Signin",
         "forgotPassword": "Forgot Password?",
@@ -77,6 +78,7 @@
         }
       },
       "signup": {
+      "signUpText":"Create your account to get started",
         "heading": "SignUp",
         "alreadyHaveAccount": "Already have an account?",
         "validations": {
@@ -99,6 +101,7 @@
         }
       },
       "forgetPassword": {
+      "forgotPasswordDescription":"Enter your email address and we'll send you a link to reset your password.",
         "heading": "Forgot Password",
         "validations": {
           "emailRequired": "Email is required.",
@@ -125,6 +128,8 @@
         }
       },
       "verifyOTP": {
+        "VerificationCodeText":"Enter Verification Code",
+        "codeSendToText":"Code sent to",
         "heading": "OTP",
         "otpCodeDescription": "Add OTP here you got on your registered email.",
         "validations": {
