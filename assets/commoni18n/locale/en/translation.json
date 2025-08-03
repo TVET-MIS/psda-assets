@@ -71,6 +71,8 @@
           "passswordRequired": "Password is required.",
           "minLength": "Password must be at least 8 characters.",
           "maxLength": "Password must be at most 64 characters.",
+          
+
           "upperLetter": "Password must contain an uppercase letter.",
           "lowerLetter": "Password must contain a lowercase letter.",
           "aNumber": "Password must contain a number.",
