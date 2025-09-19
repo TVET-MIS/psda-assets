@@ -59,7 +59,7 @@
         }
       },
       "login": {
-      "welcomeBack":"Welcome back! Please sign in to your account.",
+      "welcomeBack":"Welcome! Please sign in to your account.",
         "loginText": "Signin",
         "heading": "Signin",
         "forgotPassword": "Forgot Password?",
@@ -190,6 +190,12 @@
       "signup": "Sign Up"
     },
     "profile": {
+      "emailChangeWarningModal": {
+			"modalTitle": "Email Address Change",
+			"modalMessage": "You are about to change your email address. You will be automatically logged out of the system and will need to login again with your new email address.",
+			"confirmButton": "Continue and Logout",
+			"notificationMessage": "Your profile has been updated successfully & you are now logged out."
+		},
       "profileTitle": "My Profile",
       "updateProfile": "Update Profile",
       "buttons": {
