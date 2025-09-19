@@ -190,6 +190,12 @@
       "signup": "Sign Up"
     },
     "profile": {
+      "emailChangeWarning": {
+			"title": "Email Address Change",
+			"message": "You are about to change your email address. You will be automatically logged out of the system and will need to login again with your new email address.",
+			"confirm": "Continue and Logout",
+			"notification": "Your profile has been updated successfully & you are now logged out."
+		},
       "profileTitle": "My Profile",
       "updateProfile": "Update Profile",
       "buttons": {
