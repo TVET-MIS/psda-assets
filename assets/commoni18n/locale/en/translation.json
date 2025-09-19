@@ -196,6 +196,12 @@
 			"confirmButton": "Continue and Logout",
 			"notificationMessage": "Your profile has been updated successfully & you are now logged out."
 		},
+    "phoneChangeWarningModal":{
+      "modalTitle": "Phone Number Change",
+      "modalMessage": "You are about to change your phone number. You will be automatically logged out of the system and will need to login again with your new phone number.",
+      "confirmButton": "Continue and Logout",
+      "notificationMessage": "Your profile has been updated successfully & you are now logged out."
+    },
       "profileTitle": "My Profile",
       "updateProfile": "Update Profile",
       "buttons": {
