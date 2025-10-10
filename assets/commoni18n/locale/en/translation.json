@@ -129,6 +129,7 @@
           "passwordMismatch": "Passwords do not match."
         }
       },
+      
       "setPassword": {
         "headingFromSignup": "Enter Password",
         "headingFromResetPassword": "Set Password",
