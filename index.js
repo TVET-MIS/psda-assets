@@ -7,6 +7,7 @@ import userProfileMain from "./assets/svg/imgs/userAvatar.svg";
 import enTranslations from "./assets/commoni18n/locale/en/translation.json";
 import urTranslations from "./assets/commoni18n/locale/ur/translation.json";
 import whatsappIcon from "./assets/svg/icons/whatsapp.svg";
+import applicationCoverPage from "./assets/svg/imgs/applicaton-cover-page.jpg";
 
 // Export the assets
 export {
@@ -19,4 +20,5 @@ export {
   urTranslations,
   userProfileMain,
   userProfile,
+  applicationCoverPage,
 };
