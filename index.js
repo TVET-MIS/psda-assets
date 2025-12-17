@@ -8,7 +8,7 @@ import enTranslations from "./assets/commoni18n/locale/en/translation.json";
 import urTranslations from "./assets/commoni18n/locale/ur/translation.json";
 import whatsappIcon from "./assets/svg/icons/whatsapp.svg";
 import applicationCoverPage from "./assets/svg/imgs/applicaton-cover-page.jpg";
-import applicationAuthImage from "./assets/svg/imgs/applicationAuthImage.jpg";
+import applicationAuthImage from "./assets/svg/imgs/application-auth-image.jpg";
 
 // Export the assets
 export {
