@@ -12,4 +12,5 @@ declare module "@tvet-mis/psda-assets" {
   export const enTranslations: Record<string, any>; // JSON will be typed as a generic object
   export const urTranslations: Record<string, any>;
   export const applicationCoverPage: string;
+  export const applicationAuthImage: string;
 }
