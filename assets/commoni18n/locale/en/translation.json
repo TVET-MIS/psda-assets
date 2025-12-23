@@ -59,7 +59,7 @@
         }
       },
       "login": {
-      "welcomeBack":"Welcome back! Please sign in to your account.",
+      "welcomeBack":"Welcome! Please sign in to your account.",
         "loginText": "Signin",
         "heading": "Signin",
         "forgotPassword": "Forgot Password?",
@@ -113,6 +113,26 @@
       "resetPassword": {
         "headingFromSignup": "Enter Password",
         "headingFromResetPassword": "Reset Password",
+        "wantToSetPassword": "Enter password you wants to reset",
+        "validations": {
+          "passwordRequired": "Password is required.",
+          "conPasswordRequired": "Confirm Password is required.",
+          "minPasssword": "Password must be at least 8 characters.",
+          "maxPasssword": "Password must be at most 64 characters.",
+          "confirmMinPasssword": "Confirm Password must be at least 8 characters.",
+          "confirmMaxPasssword": "Confirm Password must at most 64 characters.",
+          "upperLetter": "Password must contain an uppercase letter.",
+          "lowerLetter": "Password must contain a lowercase letter.",
+          "aNumber": "Password must contain a number.",
+          "specialCharcter": "Password must contain a special character.",
+          "confirmPasswordRequired": "Confirm Password is required.",
+          "passwordMismatch": "Passwords do not match."
+        }
+      },
+      
+      "setPassword": {
+        "headingFromSignup": "Enter Password",
+        "headingFromResetPassword": "Set Password",
         "wantToSetPassword": "Enter password you wants to reset",
         "validations": {
           "passwordRequired": "Password is required.",
@@ -190,6 +210,18 @@
       "signup": "Sign Up"
     },
     "profile": {
+      "emailChangeWarningModal": {
+			"modalTitle": "Email Address Change",
+			"modalMessage": "You are about to change your email address. You will be automatically logged out of the system and will need to login again with your new email address.",
+			"confirmButton": "Continue and Logout",
+			"notificationMessage": "Your profile has been updated successfully & you are now logged out."
+		},
+    "phoneChangeWarningModal":{
+      "modalTitle": "Phone Number Change",
+      "modalMessage": "You are about to change your phone number. You will be automatically logged out of the system and will need to login again with your new phone number.",
+      "confirmButton": "Continue and Logout",
+      "notificationMessage": "Your profile has been updated successfully & you are now logged out."
+    },
       "profileTitle": "My Profile",
       "updateProfile": "Update Profile",
       "buttons": {
