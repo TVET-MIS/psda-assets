@@ -9,6 +9,7 @@ declare module '@tvet-mis/psda-assets' {
   export const userProfile: string;
   export const bg: string;
   export const whatsappIcon: string;
+  export const certificate: string;  // JPG image for certificate
   export const enTranslations: Record<string, any>;  // JSON will be typed as a generic object
   export const urTranslations: Record<string, any>;
 }
