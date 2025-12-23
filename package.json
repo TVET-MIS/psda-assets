@@ -1,6 +1,6 @@
 {
   "name": "@tvet-mis/psda-assets",
-  "version": "1.0.59",
+  "version": "1.0.60",
   "description": "PSDA assets package for React projects",
   "main": "index.js",
   "types": "index.d.ts",
@@ -25,5 +25,3 @@
   },
   "type": "module"
 }
-
-
