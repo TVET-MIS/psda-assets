@@ -2,6 +2,8 @@
   "psdaCommon": {
     "common": {
       "projectTitle": "پنجاب اسکلز ڈویلپمنٹ اتھارٹی",
+      "allRightsReserved": "PSDA. All rights reserved.",
+      "copyRightIcon": "©",
       "welcome": "خوش آمدید",
       "search": "تلاش کریں",
       "loading": "لوڈ ہو رہا ہے...",
@@ -11,6 +13,7 @@
       "warning": "انتباہ",
       "info": "معلومات",
       "secleft": "سیکنڈ باقی",
+      "notAvailable": "N/A",
       "buttons": {
         "cancel": "منسوخ کریں",
         "save": "محفوظ کریں",
@@ -32,10 +35,13 @@
         "filter": "فلٹر کریں",
         "refresh": "ریفریش کریں",
         "accept": "قبول کریں",
-        "reject": "مسترد کریں"
+        "reject": "مسترد کریں",
+        "yes": "Yes",
+        "no": "No"
       },
       "text": {
-        "signupText": "رجسٹریشن"
+        "signupText": "رجسٹریشن",
+        "backToLogin": "← Back to Login"
       }
     },
     "auth": {
@@ -53,6 +59,7 @@
         }
       },
       "login": {
+        "welcomeBack": "Welcome! Please sign in to your account.",
         "loginText": "سائن ان",
         "heading": "سائن ان",
         "forgotPassword": "پاس ورڈ بھول گئے؟",
@@ -71,6 +78,7 @@
         }
       },
       "signup": {
+        "signUpText": "Create your account to get started",
         "heading": "رجسٹریشن",
         "alreadyHaveAccount": "پہلے سے کھاتہ موجود ہے؟",
         "validations": {
@@ -93,6 +101,7 @@
         }
       },
       "forgetPassword": {
+        "forgotPasswordDescription": "Enter your email address and we'll send you a link to reset your password.",
         "heading": "پاس ورڈ بھول گئے",
         "validations": {
           "emailRequired": "ای میل درکار ہے۔",
@@ -118,7 +127,28 @@
           "passwordMismatch": "پاس ورڈز مماثل نہیں ہیں۔"
         }
       },
+      "setPassword": {
+        "headingFromSignup": "Enter Password",
+        "headingFromResetPassword": "Set Password",
+        "wantToSetPassword": "Enter password you wants to reset",
+        "validations": {
+          "passwordRequired": "Password is required.",
+          "conPasswordRequired": "Confirm Password is required.",
+          "minPasssword": "Password must be at least 8 characters.",
+          "maxPasssword": "Password must be at most 64 characters.",
+          "confirmMinPasssword": "Confirm Password must be at least 8 characters.",
+          "confirmMaxPasssword": "Confirm Password must at most 64 characters.",
+          "upperLetter": "Password must contain an uppercase letter.",
+          "lowerLetter": "Password must contain a lowercase letter.",
+          "aNumber": "Password must contain a number.",
+          "specialCharcter": "Password must contain a special character.",
+          "confirmPasswordRequired": "Confirm Password is required.",
+          "passwordMismatch": "Passwords do not match."
+        }
+      },
       "verifyOTP": {
+        "VerificationCodeText": "Enter Verification Code",
+        "codeSendToText": "Code sent to",
         "heading": "OTP",
         "otpCodeDescription": "اپنے رجسٹرڈ ای میل پر موصول ہونے والا OTP یہاں درج کریں۔",
         "validations": {
@@ -177,12 +207,25 @@
       "signup": "رجسٹر کریں"
     },
     "profile": {
+      "emailChangeWarningModal": {
+        "modalTitle": "Email Address Change",
+        "modalMessage": "You are about to change your email address. You will be automatically logged out of the system and will need to login again with your new email address.",
+        "confirmButton": "Continue and Logout",
+        "notificationMessage": "Your profile has been updated successfully & you are now logged out."
+      },
+      "phoneChangeWarningModal": {
+        "modalTitle": "Phone Number Change",
+        "modalMessage": "You are about to change your phone number. You will be automatically logged out of the system and will need to login again with your new phone number.",
+        "confirmButton": "Continue and Logout",
+        "notificationMessage": "Your profile has been updated successfully & you are now logged out."
+      },
       "profileTitle": "میرا پروفائل",
       "updateProfile": "پروفائل اپ ڈیٹ کریں",
       "buttons": {
         "logout": "لاگ آؤٹ",
         "save": "محفوظ کریں",
-        "edit": "ترمیم کریں"
+        "edit": "ترمیم کریں",
+        "cancel": "Cancel"
       },
       "form": {
         "email": {
@@ -229,7 +272,8 @@
           "serverError": "سرور خرابی۔ براہ کرم بعد میں دوبارہ کوشش کریں۔",
           "serverUnavailable": "سرور فی الحال دستیاب نہیں ہے۔ براہ کرم بعد میں دوبارہ کوشش کریں۔",
           "notFound": "صفحہ نہیں ملا۔",
-          "pageNotExists": "جس صفحے کی آپ تلاش کر رہے ہیں وہ موجود نہیں ہے۔"
+          "pageNotExists": "جس صفحے کی آپ تلاش کر رہے ہیں وہ موجود نہیں ہے۔",
+          "genericError": "An error occurred. Please try again."
         }
       }
     },
@@ -269,8 +313,9 @@
         }
       }
     },
-    "logout":{
-
+    "logout": {
+      "title": "Are you sure you want to logout?",
+      "description": "You will be enroute to the login screen."
     }
   }
 }
