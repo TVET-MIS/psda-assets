@@ -2,7 +2,7 @@
   "psdaCommon": {
     "common": {
       "projectTitle": "پنجاب اسکلز ڈویلپمنٹ اتھارٹی",
-      "allRightsReserved": "PSDA. All rights reserved.",
+      "allRightsReserved": "PSDA. تمام حقوق محفوظ ہیں۔",
       "copyRightIcon": "©",
       "welcome": "خوش آمدید",
       "search": "تلاش کریں",
@@ -13,7 +13,7 @@
       "warning": "انتباہ",
       "info": "معلومات",
       "secleft": "سیکنڈ باقی",
-      "notAvailable": "N/A",
+      "notAvailable": "نہیں دستیاب",
       "buttons": {
         "cancel": "منسوخ کریں",
         "save": "محفوظ کریں",
@@ -36,12 +36,12 @@
         "refresh": "ریفریش کریں",
         "accept": "قبول کریں",
         "reject": "مسترد کریں",
-        "yes": "Yes",
-        "no": "No"
+        "yes": "ہاں",
+        "no": "نہیں"
       },
       "text": {
         "signupText": "رجسٹریشن",
-        "backToLogin": "← Back to Login"
+        "backToLogin": "← لاگ ان صفحہ پر جائیں"
       }
     },
     "auth": {
@@ -59,7 +59,7 @@
         }
       },
       "login": {
-        "welcomeBack": "Welcome! Please sign in to your account.",
+        "welcomeBack": "خوش آمدید! براہ کرم آپ کا صارف ڈیٹا بیس سائن ان کریں۔",
         "loginText": "سائن ان",
         "heading": "سائن ان",
         "forgotPassword": "پاس ورڈ بھول گئے؟",
@@ -78,7 +78,7 @@
         }
       },
       "signup": {
-        "signUpText": "Create your account to get started",
+        "signUpText": "آپ کا صارف ڈیٹا بیس تیار کرنا چاہیے",
         "heading": "رجسٹریشن",
         "alreadyHaveAccount": "پہلے سے کھاتہ موجود ہے؟",
         "validations": {
@@ -101,7 +101,7 @@
         }
       },
       "forgetPassword": {
-        "forgotPasswordDescription": "Enter your email address and we'll send you a link to reset your password.",
+        "forgotPasswordDescription": "اپنے ای میل ایڈریس درج کریں اور ہم آپ کو لینک مرتب کرنے کے لئے بھیج دیں گے۔",
         "heading": "پاس ورڈ بھول گئے",
         "validations": {
           "emailRequired": "ای میل درکار ہے۔",
@@ -128,27 +128,27 @@
         }
       },
       "setPassword": {
-        "headingFromSignup": "Enter Password",
-        "headingFromResetPassword": "Set Password",
-        "wantToSetPassword": "Enter password you wants to reset",
+        "headingFromSignup": "پاس ورڈ درج کریں",
+        "headingFromResetPassword": "پاس ورڈ ری سیٹ کریں",
+        "wantToSetPassword": "پاس ورڈ درج کرنا چاہ رہے ہیں",
         "validations": {
-          "passwordRequired": "Password is required.",
-          "conPasswordRequired": "Confirm Password is required.",
-          "minPasssword": "Password must be at least 8 characters.",
-          "maxPasssword": "Password must be at most 64 characters.",
-          "confirmMinPasssword": "Confirm Password must be at least 8 characters.",
-          "confirmMaxPasssword": "Confirm Password must at most 64 characters.",
-          "upperLetter": "Password must contain an uppercase letter.",
-          "lowerLetter": "Password must contain a lowercase letter.",
-          "aNumber": "Password must contain a number.",
-          "specialCharcter": "Password must contain a special character.",
-          "confirmPasswordRequired": "Confirm Password is required.",
-          "passwordMismatch": "Passwords do not match."
+          "passwordRequired": "پاس ورڈ درکار ہے۔",
+          "conPasswordRequired": "تصدیقی پاس ورڈ درکار ہے۔",
+          "minPasssword": "پاس ورڈ کم از کم 8 حروف کا ہونا چاہیے۔",
+          "maxPasssword": "پاس ورڈ زیادہ سے زیادہ 16 حروف کا ہو سکتا ہے۔",
+          "confirmMinPasssword": "تصدیقی پاس ورڈ کم از کم 8 حروف کا ہونا چاہیے۔",
+          "confirmMaxPasssword": "تصدیقی پاس ورڈ زیادہ سے زیادہ 16 حروف کا ہو سکتا ہے۔",
+          "upperLetter": "پاس ورڈ میں ایک بڑا حرف ہونا ضروری ہے۔",
+          "lowerLetter": "پاس ورڈ میں ایک چھوٹا حرف ہونا ضروری ہے۔",
+          "aNumber": "پاس ورڈ میں ایک عدد ہونا ضروری ہے۔",
+          "specialCharcter": "پاس ورڈ میں ایک خاص علامت ہونی چاہیے۔",
+          "confirmPasswordRequired": "تصدیقی پاس ورڈ درکار ہے۔",
+          "passwordMismatch": "پاس ورڈز مماثل نہیں ہیں۔"
         }
       },
       "verifyOTP": {
-        "VerificationCodeText": "Enter Verification Code",
-        "codeSendToText": "Code sent to",
+        "VerificationCodeText": "تصدیقی کوڈ درج کریں",
+        "codeSendToText": "کوڈ ای میل پر بھیجا گیا ہے",
         "heading": "OTP",
         "otpCodeDescription": "اپنے رجسٹرڈ ای میل پر موصول ہونے والا OTP یہاں درج کریں۔",
         "validations": {
@@ -196,7 +196,7 @@
       "notifications": "اطلاعات"
     },
     "footer": {
-      "copyright": "کاپی رائٹ © {{سال}}",
+      "copyright": "کاپی رائٹ © {{year}}",
       "allRightsReserved": "تمام حقوق محفوظ ہیں۔",
       "poweredBy": "پروان چڑھایا",
       "organizationName": "سنگل اسکل ڈیٹا بیس",
@@ -208,16 +208,16 @@
     },
     "profile": {
       "emailChangeWarningModal": {
-        "modalTitle": "Email Address Change",
-        "modalMessage": "You are about to change your email address. You will be automatically logged out of the system and will need to login again with your new email address.",
-        "confirmButton": "Continue and Logout",
-        "notificationMessage": "Your profile has been updated successfully & you are now logged out."
+        "modalTitle": "ای میل ایڈریس تبدیل کریں",
+        "modalMessage": "آپ آپنے ای میل ایڈریس کو تبدیل کرنا چاہ رہے ہیں. آپ سیکھ سکتے ہیں سسٹم سے خود بخود لاگ آؤٹ ہو جائیں اور آپ کو نیا ای میل ایڈریس کے ساتھ لاگ ان کرنے کی ضرورت ہو گی۔",
+        "confirmButton": "جاری رکھیں اور لاگ آؤٹ",
+        "notificationMessage": "آپ کا پروفائل موفقیت سے تبدیل ہو گیا ہے اور آپ اب لاگ آؤٹ ہو گئے ہیں۔"
       },
       "phoneChangeWarningModal": {
-        "modalTitle": "Phone Number Change",
-        "modalMessage": "You are about to change your phone number. You will be automatically logged out of the system and will need to login again with your new phone number.",
-        "confirmButton": "Continue and Logout",
-        "notificationMessage": "Your profile has been updated successfully & you are now logged out."
+        "modalTitle": "فون نمبر تبدیل کریں",
+        "modalMessage": "آپ آپنے فون نمبر کو تبدیل کرنا چاہ رہے ہیں. آپ سیکھ سکتے ہیں سسٹم سے خود بخود لاگ آؤٹ ہو جائیں اور آپ کو نیا فون نمبر کے ساتھ لاگ ان کرنے کی ضرورت ہو گی۔",
+        "confirmButton": "جاری رکھیں اور لاگ آؤٹ",
+        "notificationMessage": "آپ کا پروفائل موفقیت سے تبدیل ہو گیا ہے اور آپ اب لاگ آؤٹ ہو گئے ہیں۔"
       },
       "profileTitle": "میرا پروفائل",
       "updateProfile": "پروفائل اپ ڈیٹ کریں",
@@ -225,7 +225,7 @@
         "logout": "لاگ آؤٹ",
         "save": "محفوظ کریں",
         "edit": "ترمیم کریں",
-        "cancel": "Cancel"
+        "cancel": "منسوخ کریں"
       },
       "form": {
         "email": {
@@ -273,7 +273,7 @@
           "serverUnavailable": "سرور فی الحال دستیاب نہیں ہے۔ براہ کرم بعد میں دوبارہ کوشش کریں۔",
           "notFound": "صفحہ نہیں ملا۔",
           "pageNotExists": "جس صفحے کی آپ تلاش کر رہے ہیں وہ موجود نہیں ہے۔",
-          "genericError": "An error occurred. Please try again."
+          "genericError": "ایک خرابی آئی ہے. براہ کرم دوبارہ کوشش کریں۔"
         }
       }
     },
@@ -314,8 +314,8 @@
       }
     },
     "logout": {
-      "title": "Are you sure you want to logout?",
-      "description": "You will be enroute to the login screen."
+      "title": "آیا آپ واقعی لاگ آؤٹ کرنا چاہتے ہیں؟",
+      "description": "آپ سیکھ سکتے ہیں لاگ ان صفحہ پر جائیں۔"
     }
   }
 }
