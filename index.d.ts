@@ -14,4 +14,6 @@ declare module "@tvet-mis/psda-assets" {
   export const urTranslations: Record<string, any>;
   export const applicationCoverPage: string;
   export const applicationAuthImage: string;
+  export const authBrandImage: string;
+
 }
