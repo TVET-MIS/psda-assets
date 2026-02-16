@@ -11,6 +11,7 @@ import certificate from "./assets/jgp/certificate.jpg";
 import applicationCoverPage from "./assets/svg/imgs/applicaton-cover-page.jpg";
 import applicationAuthImage from "./assets/svg/imgs/application-auth-image.jpg";
 import authBrandImage from "./assets/jgp/authBrand.jpeg";
+import govtPunjabLogo from "./assets/svg/logos/govt_punjab_logo.svg";
 
 // Export the assets
 export {
@@ -27,4 +28,5 @@ export {
   applicationCoverPage,
   applicationAuthImage,
   authBrandImage,
+  govtPunjabLogo,
 };
