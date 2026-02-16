@@ -10,7 +10,7 @@ import whatsappIcon from "./assets/svg/icons/whatsapp.svg";
 import certificate from "./assets/jgp/certificate.jpg";
 import applicationCoverPage from "./assets/svg/imgs/applicaton-cover-page.jpg";
 import applicationAuthImage from "./assets/svg/imgs/application-auth-image.jpg";
-import authBrand from "./assets/jgp/authBrand.jpeg";
+import authBrandImage from "./assets/jgp/authBrand.jpeg";
 
 // Export the assets
 export {
@@ -26,5 +26,5 @@ export {
   certificate,
   applicationCoverPage,
   applicationAuthImage,
-  authBrand,
+  authBrandImage,
 };
