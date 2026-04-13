@@ -12,7 +12,7 @@ import applicationCoverPage from "./assets/svg/imgs/applicaton-cover-page.jpg";
 import applicationAuthImage from "./assets/svg/imgs/application-auth-image.jpg";
 import authBrandImage from "./assets/jgp/authBrand.jpeg";
 import govtPunjabLogo from "./assets/svg/logos/govt_punjab_logo.svg";
-import authBanner from "./assets/svg/imgs/authBanner.svg";
+import authBanner from "./assets/svg/imgs/auth_banner.svg";
 
 // Export the assets
 export {
