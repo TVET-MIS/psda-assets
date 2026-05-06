@@ -18,4 +18,6 @@ declare module "@tvet-mis/psda-assets" {
   export const authBrandImage: string;
   export const govtPunjabLogo: string;
   export const authBanner: string;
+  export const applicationHeaderImage: string;
+  export const applicationLogoV1: string;
 }
