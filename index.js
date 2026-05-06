@@ -15,7 +15,7 @@ import authBrandImage from "./assets/jgp/authBrand.jpeg";
 import govtPunjabLogo from "./assets/svg/logos/govt_punjab_logo.svg";
 import authBanner from "./assets/svg/imgs/auth_banner.svg";
 import applicationHeaderImage from "./assets/svg/imgs/header_v1.svg";
-import applicationLogoV1 from "./assets/svg/imgs/portal_logo_v1.svg";
+import applicationLogoV2 from "./assets/svg/imgs/portal_logo_v2.svg";
 
 // Export the assets
 export {
@@ -36,5 +36,5 @@ export {
   govtPunjabLogo,
   authBanner,
   applicationHeaderImage,
-  applicationLogoV1,
+  applicationLogoV2,
 };
