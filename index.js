@@ -17,6 +17,7 @@ import authBanner from "./assets/svg/imgs/auth_banner.svg";
 import applicationHeaderImage from "./assets/svg/imgs/header_v1.svg";
 import applicationLogoV2 from "./assets/svg/logos/portal_logo_v2.svg";
 import loginFormBg from "./assets/svg/imgs/loginformbg.svg";
+import authCommonLogo from "./assets/svg/logos/auth_common_logo.svg";
 
 // Export the assets
 export {
@@ -39,4 +40,5 @@ export {
   applicationHeaderImage,
   applicationLogoV2,
   loginFormBg,
+  authCommonLogo,
 };
