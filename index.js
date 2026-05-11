@@ -18,6 +18,12 @@ import applicationHeaderImage from "./assets/svg/imgs/header_v1.svg";
 import applicationLogoV2 from "./assets/svg/logos/portal_logo_v2.svg";
 import loginFormBg from "./assets/svg/imgs/loginformbg.svg";
 import authCommonLogo from "./assets/svg/logos/auth_common_logo.svg";
+import authAdbLogo from "./assets/svg/logos/adb_logo.svg";
+import authIwrppLogo from "./assets/svg/logos/iwrpp_logo.svg";
+import authPsdaLogo from "./assets/svg/logos/psda_auth_logo.svg";
+import authPteLogo from "./assets/svg/logos/pte_logo.svg";
+import authPvtcLogo from "./assets/svg/logos/pvtc_logo.svg";
+import authTevtaLogo from "./assets/svg/logos/tevta_auth_logo.svg";
 
 // Export the assets
 export {
@@ -41,4 +47,10 @@ export {
   applicationLogoV2,
   loginFormBg,
   authCommonLogo,
+  authAdbLogo,
+  authIwrppLogo,
+  authPsdaLogo,
+  authPteLogo,
+  authPvtcLogo,
+  authTevtaLogo,
 };
