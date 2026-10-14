@@ -24,6 +24,10 @@ import authPsdaLogo from "./assets/svg/logos/psda_auth_logo.svg";
 import authPteLogo from "./assets/svg/logos/pte_logo.svg";
 import authPvtcLogo from "./assets/svg/logos/pvtc_logo.svg";
 import authTevtaLogo from "./assets/svg/logos/tevta_auth_logo.svg";
+import pvtcCertificateLogo from "./assets/jgp/pvtcCertificateLogo.jpeg";
+import pvtcCertificateWatermark from "./assets/jgp/pvtcCertificateWatermark.png";
+import tevtaCertificateLogo from "./assets/jgp/tevtaCertificateLogo.jpg";
+import punjabEmblem from "./assets/jgp/punjabEmblem.jpg";
 
 // Export the assets
 export {
@@ -53,4 +57,8 @@ export {
   authPteLogo,
   authPvtcLogo,
   authTevtaLogo,
+  pvtcCertificateLogo,
+  pvtcCertificateWatermark,
+  tevtaCertificateLogo,
+  punjabEmblem,
 };
