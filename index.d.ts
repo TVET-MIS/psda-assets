@@ -20,4 +20,8 @@ declare module "@tvet-mis/psda-assets" {
   export const authBanner: string;
   export const applicationHeaderImage: string;
   export const applicationLogoV2: string;
+  export const pvtcCertificateLogo: string;
+  export const pvtcCertificateWatermark: string;
+  export const tevtaCertificateLogo: string;
+  export const punjabEmblem: string;
 }
